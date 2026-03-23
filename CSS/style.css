@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}  
+nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: black */
+    border: 2px solid black;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meesho{
+    width: 10%;
+    height: 9vh;
+    background-image: url(https://www.meesho.com/assets/svgicons/meeshoLogo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+.search{
+    width: 40%;
+    height: 6vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    width: 20px;
+    height: 5vh;
+    background-color: white;
+    font-size: 100px;
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    height: 5vh;
+    font-size: 100px;
+    
+}
+.nav-containt{
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+.con1{
+    width: 10%;
+    height: 7vh;
+    font-size: 60px;
+}
+.con4{
+    width: 2px;
+    height: 7vh;
+    border: 2px solid black;
+}
+.con2{
+    width: 10%;
+    height: 7vh;
+    font-size: 60px;
+}
+.con3{
+    width: 10%;
+    height: 7vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 20px; */
+    padding: 0px 50px;
+}
+.p1{
+    width: 10%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+}
+.c1{
+    width: 10%;
+    height: 7vh;
+    /* border: 1px solid black; */
+}
+.pp{
+    font-size: 70px;
+    /* margin-top: 120px;
+    margin-left: -100px; */
+    /* padding: 20px; */
+}
+.cc{
+    font-size: 70px;
+    /* margin-top: 120px;
+    margin-left: -100px; */
+}
+.nav1{
+    width: 100%;
+    height: 6vh;
+    border: 2px solid black;
+    margin-top: 290px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav2{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+}
+.list{
+    width: 20%;
+    height: 80vh;
+    background-color:rebeccapurple;
+    color: black;
+    font-size: 80px;
+    display: inline;
+    
+}  
+.list1{
+    width: 80%;
+    height: 80vh;
+    background-color: firebrick;
+    color: black;
+    font-size: 80px;
+    display: inline;
+} 
+h1{
+    color: blue;
+} 
+/* .popular{
+    animation: nav2 2s ease 0s infinite normal ;
+}
+@keyframes  nav2{
+    from{
+      overflow:auto;
+    }
+    to{
+        overflow:visible;
+    }
+
+    
+} */
+.popular:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+img{
+    width: 100%;
+    height: 50vh;
+    margin-top: 7.6%;
+}
+.ucont{
+    width: 100%;
+    height: 8vh;
+    background-color:#fdeefa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ucont1{
+    width: 95%;
+    height: 7vh;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 70px;
+}
+.tag{
+    width: 80px;
+    height: 80px;
+}
+.imgcont{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+.unimge{
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+}
+.imgstart{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.startimg{
+    width: 600px;
+    height: 500px;
+}
+.startimg:hover{
+     padding-top: 8px;
+    }
+    .wear{
+        width: 100%;
+        height: 15vh;
+        margin-top: 150px;
+        margin-left: -100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+.starwear{
+    font-size: 70px;
+}
+.secondimg{
+    width: 100%;
+    height: 80vh;
+    margin-top: 400px;
+    background-image: url(https://images.meesho.com/images/marketing/1744698265981.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+button{
+    width: 700px;
+    height: 300px;
+    border-radius: 50px;
+    font-size: 100px;
+    color: #ffd182;
+    background-color: #3f1f11;
+    border: 2px solid #ffd182;
+    margin-top: 65vh;
+    margin-left: 50vh;
+}
+.seconimg{
+    width: 70vh;
+    height: 80vh;
+    /* background-color:darkblue; */
+    margin-left: 50vh;
+}
+.secimg{
+    width: 30vh;
+    height: 30vh;
+    padding: 20px 60px;
+}
+.secimg:hover{
+    padding-top: 8px;
+    
+}
+.thirdrow{
+    width: 100%;
+    height: 70vh;
+    border: 2px solid black;
+    /* background-color: yellow; */
+}
+.uthird{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.over{
+    font-size: 130px;
+    color: black;
+}
+.view{
+    font-size: 130px;
+    color: black;
+}
+.view:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.thirdtick{
+    width: 200px;
+    height: 80px;
+}
+.thirdimg{
+    width: 100%;
+    height: 30vh;
+    background-color:#fdeefa;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.third{
+    width: 23vh;
+    height: 25vh;
+    margin-top: -100px;
+}
+.thirdlogo{
+    width: 100%;
+    height: 20vh;
+    /* background-color:; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoimag{
+    width: 100%;
+    display: f;
+}
+.logo{
+    width: 20vh;
+    height: 10vh;
+    border-radius: 100px;
+    margin-top: -100px;
+    margin-left: 100%;
+    animation: logo 50s ease 0s infinite normal ;
+}
+.logo:hover{
+    padding-top: 0px 8px;
+    margin-top: 20px;
+    
+}
+@keyframes logo {
+    0%{
+        margin-left: 100px;
+    }
+    100%{
+        margin-left: -300%;
+    }
+    150%{
+        margin-left: 100%;
+    }
+}
+.fourth{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.down{
+    width: 30%;
+    height: 30vh;
+    background-color: orange;
+}
+.for{
+    font-size: 100px;
+    color: purple;
+}
+.button3{
+    font-size: 100px;
+    border-radius: 50px;
+}
+.fourimg{
+    width: 70%;
+    height: 30vh;
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fimg{
+    width: 20vh;
+    height: 20vh;
+    margin-top: -200px;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+    
+    
